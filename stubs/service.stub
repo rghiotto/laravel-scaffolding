@@ -1,0 +1,15 @@
+<?php
+
+namespace {{ namespace }};
+
+use {{ namespacedRepository }};
+
+class {{ class }}
+{
+    private ${{ repositoryVariable }};
+
+    public function __construct({{ repository }} ${{ repositoryVariable }})
+    {
+        $this->{{ repositoryVariable }} = ${{ repositoryVariable }};
+    }
+}
